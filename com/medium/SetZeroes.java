@@ -36,7 +36,6 @@ public class SetZeroes {
 	  
 	    int row=r;
 	    int col=c;
-	   
 	    
 	    for(int i=0;i<matrix[0].length;i++)
 	    {
@@ -48,8 +47,8 @@ public class SetZeroes {
 	            continue;
 	        }
 	        
-	    }
-	   for(int j=0;j<matrix.length;j++)
+		}
+	   	for(int j=0;j<matrix.length;j++)
 	    {
 	       
 	       marked[j][col]="#";
