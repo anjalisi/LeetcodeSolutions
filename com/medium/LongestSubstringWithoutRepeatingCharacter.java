@@ -12,14 +12,14 @@ public class LongestSubstringWithoutRepeatingCharacter {
     	{
     		if(!set.contains(str.charAt(end)))
     		{
-    			set.add(str.charAt(end)));
+    			set.add(str.charAt(end));
     			end++;
     			max= Math.max(set.size(), max);
     		}
     		else
     		{
     			//The hashset already has that element, so we need to slide our window
-    			set.remove(str.charAt(start)));
+    			set.remove(str.charAt(start));
     			start++;
     		}
     	}

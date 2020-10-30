@@ -26,7 +26,7 @@ public class MinAddToMakeParanthesisValid
     		stack.pop();
     	}
     	return result;
-    }
+	}
     public static void main(String[] args) {
 		String S= "()))((";
 		System.out.println(minAddToMakeValid(S));
